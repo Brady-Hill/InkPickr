@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final int[] tattoos = {0,1,2,3,4,5,6,7};
+        String a = "A"; String b = "B"; String c = "C"; String d = "D";
+        final String[]tattoos = {a,b,c,d};
 
         Button randomButton = (Button) findViewById(R.id.randomButton);
         randomButton.setOnClickListener(new View.OnClickListener() {

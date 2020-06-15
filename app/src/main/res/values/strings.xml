@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">InkPickr</string>
+    <string name="button_name">Pick Ink</string>
 </resources>

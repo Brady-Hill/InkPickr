@@ -4,4 +4,9 @@
     <string name="start_button">Begin</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
+    <string-array name="tattooSpinner">
+        <item>Surprise Me</item>
+        <item>Tribal</item>
+        <item>Flash</item>
+    </string-array>
 </resources>

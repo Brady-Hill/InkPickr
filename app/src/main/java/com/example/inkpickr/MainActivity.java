@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Random;
 
@@ -59,6 +60,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 randomTattoo.setImageDrawable(tattoos[randTat]);
             }
         });
+
     }
     //Set up Item Selection For Spinner
     @Override
